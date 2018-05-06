@@ -22,28 +22,20 @@ cost(W, b) =
 (W(x_{1i}, x_{2i}, x_{3i})-y_i)^2
 $$
 
-$$
-cost(W, b) = \frac{1}{m} \sum_{i=1}^m (W(x_{1i}, x_{2i}, x_{3i})-y_i)^2
-$$
-
-$$cost(W, b) = \frac{1}{m} \sum_{i=1}^m (W(x_{1i}, x_{2i}, x_{3i})-y_i)^2$$
-
 # Matrix
 $$
-w_1x_1 + w_2x_2 + w_3x_3 + ... +  w_nx_n 
+w_1x_1 + w_2x_2 + w_3x_3 + ... +  w_nx_n
 $$
 
 $$
 \begin{pmatrix}
 x_1 & x_2 & x_3
 \end{pmatrix}
-
 \begin{pmatrix}
 w_1 \\
 w_2 \\
 w_3 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 (x_1w_1 + x_2w_2 + x_3w_3)
 $$
 
@@ -59,13 +51,11 @@ x_{31} & x_{32} & x_{33} \\
 x_{41} & x_{42} & x_{43} \\
 x_{51} & x_{52} & x_{53} \\
 \end{pmatrix}
-
 \begin{pmatrix}
 w_1 \\
 w_2 \\
 w_3 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 x_{11}w_1 + x_{12}w_2 + x_{13}w_3 \\
 x_{21}w_1 + x_{22}w_2 + x_{23}w_3 \\
@@ -99,3 +89,4 @@ $$
 $$
 H(X)=XW
 $$
+

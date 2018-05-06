@@ -15,6 +15,5 @@ ex) 이미지 labeling, 이메일 스팸 필터, 시험 성적 예측
 ### Unsupervised learning
 
 label을 정해주기 어려운 경우 데이터를 보고 스스로 학습하도록 하는 방식
-
-
+ex) 구글 뉴스 그룹핑
 

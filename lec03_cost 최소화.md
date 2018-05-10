@@ -59,11 +59,11 @@ W - (a * 현재 기울기) 만큼 W를 움직이면서 이를 계속 반복(a는
 
 # Convex function
 
-![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[16].png)
+![](img\lec03-1.png)
 
 위의 cost function에서는 시작점에 따라서 목표지점이 달라지게 된다.
 
-![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[14].png)
+![](img\lec03-2.png))
 
 위의 cost function에서는 시작점에 상관없이 목표지점이 항상 같다.
 이를 convex function이라고 하는데, cost function을 정의할 때는 convex function이 되도록 정의해야 한다.

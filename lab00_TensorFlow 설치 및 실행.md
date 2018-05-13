@@ -95,3 +95,4 @@ C:> activate tensorflow
 ```
 
 2. Python [conda evn:tensorflow] 로 파일 생성
+

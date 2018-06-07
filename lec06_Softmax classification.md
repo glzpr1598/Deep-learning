@@ -20,6 +20,8 @@ $$
 
 ![](img\lec06-1.PNG)
 
+
+
 # Multinomial classification
 
 여러 등급으로 분류하는 방법

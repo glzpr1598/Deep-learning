@@ -7,6 +7,10 @@ ex) 이메일 spam(1) or ham(0), 페이스북 피드 show or hide, 신용카드 
 
 ![](img\lec05-1.png)
 
+
+
+
+
 # Logistic hypothesis
 
 결과값이 항상 0~1 사이인 함수가 필요
@@ -24,6 +28,8 @@ $$
 H(X) = 
 \frac{1}{1+e^{-W^TX}}
 $$
+
+
 
 # Cost function
 
@@ -89,7 +95,7 @@ C(H(x),y) =
 \end{cases}
 $$
 
-가 되고 하나의 식으로 나타내면
+가 되고 두 번째 식을 하나의 식으로 나타내면
 $$
 C(H(x),y)=ylog(H(x))-(1-y)log(1-H(x))
 $$
@@ -105,6 +111,8 @@ $$
 ![](img\lec05-6.png)
 
 의 형태가 되어 우리가 원하는 cost function 모양이 된다.
+
+
 
 # Gradient descent algorithm
 

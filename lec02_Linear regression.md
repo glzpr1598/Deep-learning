@@ -13,6 +13,8 @@ $$
 W : Weight
 b : bias
 
+
+
 # Cost function
 
 $$
